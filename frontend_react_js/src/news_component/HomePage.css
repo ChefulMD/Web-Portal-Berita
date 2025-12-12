@@ -1,0 +1,51 @@
+/* headline di portal layout */
+.headline-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.headline-excerpt {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+/* card title di grid layout */
+.card-title {
+  font-size: 1.2rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 0.3em 0.6em;
+  border-radius: 0.25rem;
+}
+
+/* card hover effect */
+.news-card img {
+  transition: transform 0.3s ease;
+}
+
+.news-card img:hover {
+  transform: scale(1.05);
+}
+
+/* small news grid card (portal) */
+.small-news-card img {
+  transition: transform 0.3s ease;
+}
+
+.small-news-card img:hover {
+  transform: scale(1.03);
+}
+
+/* list terbaru di sidebar */
+.latest-news-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.latest-news-category {
+  font-size: 0.75rem;
+  color: #888;
+}

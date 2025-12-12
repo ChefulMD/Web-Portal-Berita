@@ -1,0 +1,30 @@
+.search-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.search-item-card {
+  padding: 1rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.search-item-card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.search-item-title {
+  margin-bottom: 0.5rem;
+}
+
+.search-item-excerpt {
+  margin-bottom: 0.5rem;
+}
+
+.search-item-meta {
+  font-size: 0.85rem;
+}
